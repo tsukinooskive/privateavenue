@@ -186,7 +186,7 @@
 
 /*--BACKGROUNDS--*/
     --bgpale:#dfdfdfc4;
-    --bg1:#00000017;
+    --bg1:#000007;
     --bg2:#00000036;
     --bg3:#0000005c;
     --bg4:#0000007a;
@@ -274,7 +274,7 @@
 
 /*--BACKGROUNDS--*/
     --bgpale:#dfdfdfc4;
-    --bg1:#00000017;
+    --bg1:#000007;
     --bg2:#00000036;
     --bg3:#0000005c;
     --bg4:#0000007a;
@@ -4267,73 +4267,7 @@ span.field_content {
             
             /*** ------------------------------- ***/
             /*** -- CATEGORIES - MODIFICATION ------------- ***/
-            
-            
-            div#c1 .cate_title:before {
-    content: '01';
-    font-family: var(--font4);
-    font-size: 108px;
-    position: absolute;
-    margin-top: -55px;
-    color: var(--white);
-}
-         div#c2 .cate_title:before {
-                content: '02';
-              font-family: var(--font4);
-    font-size: 108px;
-    position: absolute;
-    margin-top: -55px;
-    color: var(--white);
-            }    
-        
-            
-            div#c3 .cate_title:before {
-                content: '03';
-              font-family: var(--font4);
-    font-size: 108px;
-    position: absolute;
-    margin-top: -55px;
-    color: var(--white);
-            }
-            
-            div#c4 .cate_title:before {
-                content: '04';
-                font-family: var(--font4);
-    font-size: 108px;
-    position: absolute;
-    margin-top: -55px;
-    color: var(--white);
-            }
-            
-            div#c5 .cate_title:before {
-                content: '05';
-               font-family: var(--font4);
-    font-size: 108px;
-    position: absolute;
-    margin-top: -55px;
-    color: var(--white);
-            }
-            
-            div#c6 .cate_title:before {
-                content: '06';
-              font-family: var(--font4);
-    font-size: 108px;
-    position: absolute;
-    margin-top: -55px;
-    color: var(--white);
-            }
-            
-            div#c7 .cate_title:before {
-                content: '07';
-             font-family: var(--font4);
-    font-size: 108px;
-    position: absolute;
-    margin-top: -55px;
-    color: var(--white);
-            }
-            
-            
-            
+
                 /* Container du module */
             .recent_topics {
     background-color: var(--bgopa2);
