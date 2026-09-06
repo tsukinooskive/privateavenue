@@ -1,0 +1,303 @@
+#instacode {
+    width: 550px;
+    padding: 15px;
+    background: var(--outsidefo);
+    border-radius: 100px 10px 10px 10px;
+}
+    
+.instainside {
+    margin-left: -22px;
+    max-width: calc(540px + 2em);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    margin-top: 28px;
+}
+    
+.instaprof1 {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    padding: 3px;
+    background:var(--gradientcolor);
+    border-radius: 100%;
+    margin-top: -20px;
+    margin-right: -8px;
+}
+    
+    
+.instaprof1 img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    padding: 4px;
+    border-radius: 100%;
+}
+    
+    .insta-left {
+        display: flex ;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .insta-right {display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;}
+    
+    .instaprof2 {display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    padding-bottom: 0.5em;
+    }
+    
+  .instaprof2 a.instname {
+    margin-right: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    cursor: help;
+    font-size: 17px;
+    text-transform: lowercase;
+}
+    
+    .instaprof2 a.instname:hover {color:var(--black);}
+    
+    .instaprof2 a.instfollow {
+    position: relative;
+    font-size: .95em;
+    font-weight: 500;
+    padding: 0.25em 0.75em 0.25em 0.75em;
+     background: var(--textbg2);
+    border-radius: 5px;
+        cursor: help;
+}
+    
+    .instaprof2 a.instbutton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4em;
+    background: var(--textbg2);
+    border-radius: 5px;
+    cursor: help;
+    font-size: 13px;
+}
+ 
+    .instdesc-title {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+}
+    
+   .instdesc-title b {
+    font-size: 1.05em;
+    text-align: center;
+    text-transform: lowercase;
+}
+    
+    .instdesc-title span {
+    font-size: .925em;
+    text-align: center;
+    text-transform: lowercase;
+}
+    
+    .instdescri {
+    width: 100%;
+    text-align: left;
+}
+    
+ .instdescri strong {
+    font-weight: 800;
+}     
+    
+    .instadivider {width:510px;
+    height:1px;
+    background: var(--textbg2);
+    margin-top:20px;
+    margin-bottom:20px;
+    }
+    
+    
+    .instafeed {
+    display: grid;
+    grid-template: 150px / 150px;
+}
+    
+ .instatype {
+    grid-row: 1;
+    grid-column: 1;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    color: var(--white);
+    margin-top: 5px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+    
+    .instafeed img {
+    grid-row: 1;
+    grid-column: 1;
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+    
+    
+.instaphoto {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-gap: 10px;
+    margin-left: 25px;
+}
+    
+    
+    
+    .instatop {
+    width: calc(100% - 2em);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+    border-bottom: 1px solid var(--textbg2);
+}
+    
+    .instainfo-left {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+    
+    a.insttit-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(2.5em + 6px);
+    height: calc(2.5em + 6px);
+    padding: 2px;
+    border: 2px solid var(--textbg2);
+    border-radius: 100%;
+}
+    
+    a.intitit-img img {
+    width: 2.5em;
+    height: 2.5em;
+    padding: 3px;
+    border-radius: 100%;
+}
+    
+    .instainfo-left li {
+    display: flex;
+    gap: 0.35em;
+    line-height: 130%;
+}
+    
+    
+    .instainfo-left a.name {
+    font-weight: bold;
+    color: var(--black);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+    .instainfo-left b {
+    font-size: 1.05em;
+    color: var(--black);
+}
+    
+    .instainfo-left span {
+    font-size: .95em;
+    white-space: nowrap;
+}
+    
+    
+.instapost {border-bottom: 1px solid var(--textbg2);
+      margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+    
+    .instapost img {
+    width: 420px;
+    min-height: 100px;
+    margin-top: 5px;
+    margin-bottom: 15px;}
+    
+  .instabtn {
+    letter-spacing: 5px;
+    font-size: 20px;
+    text-align: justify;
+}
+    
+   .instabtn b {
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 0px;
+    letter-spacing: 0px;
+    text-transform: lowercase;
+}
+    
+    .instabtn descr {
+    font-weight:400;
+    font-size:13px;
+    letter-spacing:0px;
+    }
+    
+    
+    .instabtn descr {
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0px;
+}
+    
+    
+    .instapbott {width: calc(100% - 2em);
+    padding: 1em;}
+    
+    .instatut { text-align:justify;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    }
+    
+    
+    .instatut a.name {font-weight: bold;
+    color: var(--black);
+        min-width: fit-content;}
+    
+    .instatut-img {position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(2.5em + 6px);
+    height: calc(2.5em + 6px);
+    padding: 2px;
+    border: 2px solid var(--textbg2);
+    border-radius: 100%;}
+    
+    .instabutright {float:right;
+        font-size: 18px;
+    color: var(--black);}
+    
+    
+    .instainfo-left img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+    
+    .instatut img {
+       width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 100px;}  

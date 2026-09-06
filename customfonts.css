@@ -1,0 +1,95 @@
+      
+          @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/OJvrk0t0i/dia-regular.woff);
+        }
+           @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/v9xrk0t1d/dia-light.woff);
+        font-weight:200;
+}    
+            @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/K2Frk0t1x/dia-bold.woff);
+        font-weight:600;
+  } 
+            @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/STnrk0t2j/dia-black.woff);
+        font-weight:800;
+}
+
+@font-face {font-family:Retroscope;
+src: url(https://dl.dropbox.com/scl/fi/yp3gsaaaavua0g9ftva3a/RetroscopeRegular.woff?rlkey=rnr9crlz478nnn7jt5r172knl&);}
+
+@font-face {font-family:Retroscope-italic;
+src:url(https://dl.dropbox.com/scl/fi/coakc243mi4efuxqefyab/RetroscopeItalic.woff?rlkey=9zesn8mrsccz0i4yvihp3xkph&);}
+
+        
+          @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/OJvrk0t0i/dia-regular.woff);
+        }
+           @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/v9xrk0t1d/dia-light.woff);
+        font-weight:200;
+}    
+            @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/K2Frk0t1x/dia-bold.woff);
+        font-weight:600;
+  } 
+            @font-face {font-family:Dia; 
+          src:url(https://static.tumblr.com/wecnf0v/STnrk0t2j/dia-black.woff);
+        font-weight:800;
+}
+
+  /* GEIST MONO FONT: 9 VARIABLES */
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/1pdn331zvxvk0tr9lwvgm/GeistMono-Thin.woff2?rlkey=qk4c4t87fciyj1hn95zzb3b3p&);
+    font-weight:100;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/x5lx7r7y5hhm1q55ph4x5/GeistMono-UltraLight.woff2?rlkey=u37vqrrcwwd8va2b9lzvyirkr&);
+    font-weight:200;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/sb2q61kq4uk4fk7gzz4jw/GeistMono-Light.woff2?rlkey=6nr676em5y9zczzrpj84w1qj4&);
+    font-weight:300;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/xuwzxrs3bzyo7adkhl93y/GeistMono-Regular.woff2?rlkey=7dp6d4la3k4swn694fsu0d9jr&);
+    font-weight:400;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/k5fpd6x2jbu7u2bajbleg/GeistMono-Medium.woff2?rlkey=sfxapfezcra9jncdem4sjihao&);
+    font-weight:500;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/op6cdc4zahzrcn6kqxn5i/GeistMono-SemiBold.woff2?rlkey=gfr0vz94eea7c8ao3ckimrcwk&);
+    font-weight:600;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/5rrmju5am4xn3qico8vqy/GeistMono-Bold.woff2?rlkey=kh8m7gr1w513a281hgoik0obb&);
+    font-weight:700;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/823ut0ocgpq925idly8ga/GeistMono-Black.woff2?rlkey=ibejaoxk7ri6o10d1sscitzuq&);
+    font-weight:800;
+  }
+
+  @font-face {
+    font-family:Geist Mono;
+    src: url(https://dl.dropbox.com/scl/fi/lgzuf2mwwo8ltn7x1ypzz/GeistMono-UltraBlack.woff2?rlkey=h45s0i9nm91rxh0mr4chv30rk&);
+    font-weight:900;
+  }
