@@ -169,7 +169,7 @@
 --color1v:#cec365; /*accent 1*/
 
 /*--IMAGES--*/
---imglogo1:url(https://images2.imgbox.com/bc/74/iaMqo4sx_o.png);
+--imglogo1:url(https://i.ibb.co/SXfn9qNx/logo1.png);
 --imgpa:url(https://images2.imgbox.com/d7/a2/OOEZ9jZ7_o.png);
 
 /*--COLORS--*/
@@ -258,7 +258,7 @@
 --paflex:row-reverse;
 --color1v:#cec365; /*accent 1*/
 /*--IMAGES--*/
---imglogo1:url(https://images2.imgbox.com/bc/74/iaMqo4sx_o.png);
+--imglogo1:url(https://i.ibb.co/SXfn9qNx/logo1.png);
 
 /*--COLORS--*/
         --black:#ffffff;
@@ -445,7 +445,7 @@ div#topbg {margin-top: -525px;}
 .toptitle {
     display: flex;
     justify-content: center;
-    margin-top: -630px;
+    margin-top: -570px;
 }
 
 .titleone {
