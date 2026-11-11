@@ -962,16 +962,15 @@ a#fa_notifications:before {
 /*** ------------------------------- ***/
 /*** BARRE DE NAVIGATION ----------- ***/
 
-.navbar {background-color: var(--insidefo) !important;
-    width: 100%;
-    margin: 45px 0 !important;
-    background: var(--neutralDark);
-    border-radius: 5px;
-    margin: 10px 0;
-    padding: 10px;
+.navbar {display: flex;
+}
+.centernav {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    top: 14px;
+    position: fixed;
+    margin-left: 55px;
 }
 
 /* Conteneur de la barre de nav */
@@ -987,15 +986,10 @@ border-radius: 0px !important;
 /* Lien de déconnexion et d'inscription mis en avant */
 .nav-logout,
 .nav-register, .nav-login {
- background: var(--bg2);
-    color: var(--color3);
-    border-radius: 10px !important;
-    padding: 4px 10px;
     margin-left: 20px;
     transition:var(--transi);
 
   &:hover {
-    background: var(--bg4);
     transition:var(--transi);
   }
 }
