@@ -58,9 +58,7 @@
 --gradient2:linear-gradient(to right, var(--color1), var(--color2v), var(--color1));
 
   /*--IMAGES--*/
-    --imglogo1:url(https://i.ibb.co/XrptHZDs/logo2.png);
-    --imgpa:url(https://images2.imgbox.com/3c/70/nqurPsuw_o.png);
-
+    --imglogo1:url(https://i.ibb.co/VRdn4M0/bb2.png);
     /*--COLORS--*/
     --black:#000000;
     --white:#ffffff;
@@ -168,9 +166,6 @@
 --paflex:row-reverse;
 --color1v:#cec365; /*accent 1*/
 
-/*--IMAGES--*/
---imglogo1:url(https://i.ibb.co/SXfn9qNx/logo1.png);
---imgpa:url(https://images2.imgbox.com/d7/a2/OOEZ9jZ7_o.png);
 
 /*--COLORS--*/
         --black:#ffffff;
@@ -257,9 +252,7 @@
 --backdark:brightness(0.7);
 --paflex:row-reverse;
 --color1v:#cec365; /*accent 1*/
-/*--IMAGES--*/
---imglogo1:url(https://i.ibb.co/SXfn9qNx/logo1.png);
-
+		 
 /*--COLORS--*/
         --black:#ffffff;
         --white:#000000;
@@ -426,12 +419,17 @@ div#topbg {margin-top: -525px;}
 
 .imglogo1 {
     background-image: var(--imglogo1);
-    width: 1200px;
-    height: 470px;
+ width: 100%;
+    height: 100%;
     background-size: cover;
-    margin-top: 0px;
-    background-repeat: no-repeat;
-    background-position: center;
+    position: absolute;
+    mask: linear-gradient(to bottom, transparent, 5%, black 15%, 55%, transparent 80%);
+    opacity: .8;
+}
+
+a#logo {
+    height: 150px;
+    display: block;
 }
 
 .topliens a {
