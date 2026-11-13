@@ -1994,7 +1994,7 @@ span.fo-posts {
     border-radius: 10px;
     line-height: 21px;
     display: grid;
-    height: min-content;
+    height: 85px;
 }
 
 a.last-post-icon {
@@ -2006,23 +2006,25 @@ a.last-post-icon {
 
 .last-post-div {
     display: grid;
-    grid-template-columns: 1fr 120px;
-    gap: 5px;
+    grid-template-columns: 1fr 80px;
+    gap: 20px;
 }
    
-   .forum_avatar {
-   }
+  .forum_avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
    
 .forum_avatar img {
-    border-radius: 10px;
+    border-radius: 100%;
     object-fit: cover;
     object-position: center center;
-    outline-offset: -4px;
-    outline: 1px solid var(--white);
-    margin: -1px 0px 0px 5px;
     background: var(--f1);
-    width: 80px;
-    height: 110px;
+    width: 50px;
+    height: 50px;
+    outline: 1px solid var(--bgpale);
+    outline-offset: 5px;
 }
    
 .lastpost_auteur {
@@ -2132,20 +2134,28 @@ a.lastpost_link {
 .descwind1 img:hover {transform:scale(1.1);
 transition:var(--transi);}
 
-  div#Hooligan_20 .last-post-div, div#Body_20to_20Body_20 .last-post-div {
-    display: block;
+div#RPS_20 {
+    min-height: 250px !important;
+    height: min-content;
 }
 
-div#Hooligan_20 .forumstats, div#Hooligan_20 .forum_avatar, div#Body_20to_20Body_20 .forumstats, div#Body_20to_20Body_20 .forum_avatar {display:none;}
-
-div#Hooligan_20 .forum_desc, div#Body_20to_20Body_20 .forum_desc {
-    margin-bottom: -3px;
-}
-div#Hooligan_20 .lastpost_auteur
- {
-    display: none;
+div#RPS_20 .forum_details1 {
+    margin-top: 75px;
+    padding-top: 10px;
 }
 
+div#RPS_20 .forum_desc img {
+    display: flex;
+    margin-top: -166px;
+    width: 544px;
+    height: 100px;
+    margin-left: -32px;
+    border-radius: 25px 25px 0px 0px;
+    position: fixed;
+    border-bottom: 1px solid var(--bg3);
+}
+
+  
 .desc-grid {
     display: grid;
     grid-template-columns: 150px 150px 150px;
